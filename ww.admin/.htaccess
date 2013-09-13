@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Enter Password"
+AuthGroupFile /dev/null
+AuthUserFile /home/brass/.htpasswd
+Require valid-user

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* MailChimp Form Embed Code - Modified */
+input:invalid, input:-moz-ui-invalid { border:0; outline:none; box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none; }
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%;}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {color: #6D6D6D; border:1px solid #7F7F7F; -webkit-appearance:none; text-align: center;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#bc7a30; text-align: left;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777; }
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup input.email { padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:100%; min-width:130px; }
+#mc_embed_signup input.button { float: right; width:20%; margin:0 0 10px 0; min-width:75px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: left;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+#mc_embed_signup p {float:right;}
+
+#mc_embed_signup{
+	margin: 0 auto;
+	background: none;
+	width: 300px;
+}
+
+input[name="EMAIL"] {
+	cursor: text;
+}

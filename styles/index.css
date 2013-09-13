@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+. {
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+a {
+	text-decoration: none;
+	color: #000;	
+}
+
+img {
+	border: none;
+}
+
+body {
+	width:1100px;
+	margin: auto;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#header {
+	visibility: hidden;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 255px;
+	width: 1100px;
+	margin-top: 15px;	
+}
+
+#newsletter {
+	float: left;
+	width: 383px;
+	height: 560px;
+}
+
+.logo {
+	height: 475px;
+}
+.logo img {
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.form {
+	height: 80px;
+}
+
+#nav {
+	float: left;
+	width: 652px;
+	height: 60px;
+}
+#nav a {
+	text-decoration: none;
+	color: #000;
+	line-height: 60px;
+	font-size: 25px;
+	padding-left: 25px;
+}
+#nav p {
+	color: #bd7c34;
+	line-height: 60px;
+	font-size: 25px;
+	padding-left: 25px;
+	margin: 0;
+	display: inline-block;
+	cursor: default;	
+}
+#winelist {
+	float: left;
+	width: 650px;
+	height: 500px;
+	border-left: #000 thin solid;
+	border-right: #000 thin solid;
+	padding-top: 25px;
+}
+
+#winelist p.excerpt {
+	font-size: 18px;
+	display: inline-block;
+	text-transform: uppercase;
+	width: 600px;
+	padding-left: 25px;
+	margin: 0 0 30px;
+	float: left;	
+}
+#winelist a.readmore {
+	text-transform: uppercase;
+	float: right;
+	font-weight: bold;
+	padding-right: 25px;
+	font-size: 14px;
+	line-height: normal;
+	margin: -48px 0 0;
+	padding-left: 0;	
+}
+
+#winelist .title {
+	font-weight: bold;	
+}
+
+.spacer {
+	height: 28px;
+	width: 965px;
+	clear: both;
+	margin: 0 auto;
+	border-bottom: #000 thin solid;
+}
+
+#footer {
+	height: 45px;
+	margin-top: -10px;
+}
+#footer p {
+	text-transform: uppercase;
+	float: left;
+	font-size: 14px;
+	padding-left: 30px;
+	line-height: 45px;
+}
+#footer img {
+	float: right;
+}
+#fb {
+	padding-top: 25px;
+	padding-right: 20px;
+}
+#twit {
+	padding-top: 27px;
+	padding-right: 55px;
+}

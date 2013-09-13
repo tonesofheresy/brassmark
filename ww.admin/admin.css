@@ -1,0 +1,113 @@
+/* CSS Document */
+
+* {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#choice-holder {
+	display: inline-block;
+	position: relative;
+	top: 5%;
+	left: 40%;
+}
+
+#choice-holder p {
+	margin-left: -25px;
+}
+
+#choices input[type="submit"] {
+	margin-top: 10px;
+	width: 55px;
+	margin-left: 70px;
+}
+
+#new-entry {
+	margin: auto;
+	width: 800px;
+	height: 650px;
+}
+#new-entry tr {
+	height: 50px;
+}
+
+td#header {
+	text-align: center;
+	padding: 15px 0;
+}
+
+
+#new-entry input[type="text"] {
+	width: 250px;
+	height: 35px;
+	padding: 2px;
+}
+
+#new-entry input[type="submit"] {
+	float: right;
+	margin-right: 5px;
+}
+
+#new-entry input[value="Back"] {
+	float: left;
+}
+
+#new-entry input, #new-entry textarea {
+	font-size: 14px;
+}
+
+#new-entry textarea {
+	max-width: 700px;
+	min-width: 700px;
+	max-height: 350px;
+	min-height: 350px;
+}
+
+#new-entry .instructions {
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+#search-holder {
+	width: 360px;
+}
+
+#search-holder {
+	margin: auto;
+}
+
+#search-form p {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+}
+
+#search-form input[value="Search"] {
+	float: right;
+}
+
+#search-form input[value="Back"] {
+	foat: left;
+}
+
+#list-holder {
+	width: 500px;
+	height: auto;
+	margin: auto;
+}
+
+#list-holder p {
+	text-align: center;
+}
+
+#list-holder input {
+	margin-bottom: 10px;
+}
+
+#list-holder input[type="submit"] {
+	margin-top: 10px;
+}
+
+form#list {
+	display: inline-block;
+	1margin-left: 120px;
+}
